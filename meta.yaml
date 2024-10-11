@@ -48,6 +48,17 @@ requirements:
   run:
     # TODO: Currently this list is compiled for windows. Some packages have to be changed for other platforms.
     - python
+    - numpy
+    - openpyxl
+    - pandas
+    - pynput
+    - pyqt
+    - pythonocc-core
+    - pylatex
+    - pygithub
+    - pyyaml
+    - smesh
+    - tbb
 
 test:
   # Some packages might need a `test/commands` key to check CLI.
@@ -89,4 +100,3 @@ extra:
     # GitHub IDs for maintainers of the recipe.
     # Always check with the people listed below if they are OK becoming maintainers of the recipe. (There will be spam!)
     - AjinkyaDahale
-
