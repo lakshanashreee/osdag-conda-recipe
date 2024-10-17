@@ -37,7 +37,7 @@ build:
   # TODO: Only do a copy here or make pip install osdag possible
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed . -vv
   entry_points:
-    - osdag = osdagMainPage:do_stuff
+    - osdag = osdag.osdagMainPage:do_stuff
 
 requirements:
   build:
