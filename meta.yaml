@@ -80,7 +80,7 @@ about:
   # Remember to specify the license variants for BSD, Apache, GPL, and LGPL.
   # Use the SPDX identifier, e.g: GPL-2.0-only instead of GNU General Public License version 2.0
   # See https://spdx.org/licenses/
-  license: LGPL
+  license: LGPL-3.0-only
   # The license_family, i.e. "BSD" if license is "BSD-3-Clause". 
   # Optional
   license_family: LGPL
