@@ -43,11 +43,11 @@ requirements:
   build:
     # If your project compiles code (such as a C extension) then add the required compilers as separate entries here.
     # Compilers are named 'c', 'cxx' and 'fortran'.
-    - python
+    - python>=3.10
     - setuptools
   run:
     # TODO: Currently this list is compiled for windows. Some packages have to be changed for other platforms.
-    - python
+    - python>=3.10
     - numpy
     - openpyxl
     - pandas
